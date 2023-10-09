@@ -1,0 +1,7 @@
+version: '3.7'
+services:
+   web: 
+   container_name: "Highskyweb"
+   build: . 
+   port:
+     - 80:80
